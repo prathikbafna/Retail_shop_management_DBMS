@@ -1,0 +1,12 @@
+create DATABASE Retail_Shop;
+
+CREATE TABLE `Retail_Shop`.`Customer` ( `Customer_id` INT(10) PRIMARY KEY NOT NULL , `Customer_name` VARCHAR(30) NOT NULL , `Customer_phone` INT(10) NOT NULL , `customer_address` VARCHAR(50) NOT NULL , `Customer_Nid` INT(15) NOT NULL ) ;
+
+CREATE TABLE `Retail_Shop`.`Product` ( `product_name` VARCHAR(30) NOT NULL , `product_id` INT(10) PRIMARY KEY NOT NULL , `product_type` VARCHAR(20) NOT NULL , `product_price` INT(10) NOT NULL , `prodouct_mfd` DATE NOT NULL , `product_exp` DATE NOT NULL ) ;
+
+CREATE TABLE `Retail_Shop`.`Order` ( `order_id` INT(10) NOT NULL , `supplier_id` INT(10) NOT NULL ,`product_id` INT(10) NOT NULL , `oder_date` DATE NULL DEFAULT NULL , `order_delivery_date` DATE NULL DEFAULT NULL ) ;
+
+CREATE TABLE `Retail_Shop`.`Staff` ( `staff_id` INT(10)PRIMARY KEY NOT NULL , `staff_name` VARCHAR(30) NOT NULL , `staff_salary` INT(10) NULL DEFAULT NULL , `staff_phone` INT(10) NULL DEFAULT NULL , `staff_address` VARCHAR(50) NULL DEFAULT NULL , `staff_Nid` INT(15) NOT NULL , `staff_manager` VARCHAR(30) NULL DEFAULT NULL );
+
+bill
+suppplier
