@@ -65,8 +65,8 @@ EDA was performed to uncover patterns, spot anomalies, and test hypotheses with 
 5. **Run Triggers:**  
    Ensure triggers are enabled and functioning as expected by performing sample transactions.
 
-6. **Perform EDA (if applicable):**  
-   Run the EDA scripts in your Python environment.
+6. **Perform EDA :**  
+   Run the EDA scripts in your SQL environment.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with suggestions or improvements.
