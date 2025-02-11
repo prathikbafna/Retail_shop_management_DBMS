@@ -18,7 +18,7 @@
 This project focuses on building a comprehensive database for a retail shop. The database is designed to manage various aspects of retail operations, including inventory management, sales tracking, and customer information.
 
 ## Technologies Used
-- **Database:** MySQL/PostgreSQL/SQL Server *(choose your DBMS)*
+- **Database:** MySQL
 - **Scripting Language:** SQL
 - **EDA Tools:** SQL
 
