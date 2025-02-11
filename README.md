@@ -42,6 +42,9 @@ The DML scripts handle data insertion, updates, deletions, and queries.
 
 ### Triggers
 Custom triggers are implemented to automate actions based on specific events.
+
+![Triggers](https://github.com/prathikbafna/Retail_shop_management_DBMS/blob/main/Triggers.png)
+
 - **Example Triggers:**
   - Automatically update stock levels after a sale.
   - Log changes in the Orders table for auditing purposes.
