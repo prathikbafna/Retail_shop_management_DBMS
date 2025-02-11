@@ -26,7 +26,7 @@ This project focuses on building a comprehensive database for a retail shop. The
 The database design follows best practices to ensure data integrity and efficient query performance. The core components include tables for products, customers, orders, suppliers, and employees.
 
 ### Entity-Relationship (ER) Diagram
-![ER Diagram](path_to_your_image/ER_Diagram.png)
+![ER Diagram](https://github.com/prathikbafna/Retail_shop_management_DBMS/blob/main/ER_diagram.png)
 
 ## Database Scripts
 ### Data Definition Language (DDL)
@@ -51,10 +51,10 @@ EDA was performed to uncover patterns, spot anomalies, and test hypotheses with 
 
 ## Setup Instructions
 1. **Clone the Repository:**  
-   `git clone https://github.com/your-repo/retail-shop-database`
+   `git clone https://github.com/prathikbafna/Retail_shop_management_DBMS`
 
 2. **Navigate to the Project Directory:**  
-   `cd retail-shop-database`
+   `cd Retail_shop_management_DBMS`
 
 3. **Import Database:**  
    Run the DDL scripts in your SQL environment to create the database schema.
